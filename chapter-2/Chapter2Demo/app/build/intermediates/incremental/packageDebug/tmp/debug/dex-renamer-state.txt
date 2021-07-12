@@ -1,4 +1,0 @@
-#Thu Jul 08 21:45:37 CST 2021
-base.0=/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
