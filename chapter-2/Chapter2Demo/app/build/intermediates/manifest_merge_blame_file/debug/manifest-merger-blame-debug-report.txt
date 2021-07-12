@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chapter2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:5:5-48:19
+12        android:allowBackup="true"
+12-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /Users/bytedance/.gradle/caches/transforms-2/files-2.1/943e90bed42cf8619a60d41b617cc8c9/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity
+21-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:12:9-19:20
+22            android:name="com.example.chapter2.MainActivity"
+22-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:12:19-47
+23            android:configChanges="orientation" >
+23-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:13:13-48
+24            <intent-filter>
+24-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:15:17-69
+25-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:17:17-77
+27-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.chapter2.LinearLayoutActivity" >
+30-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:20:9-26:20
+30-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:20:19-55
+31            <intent-filter>
+31-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:21:13-25:29
+32                <action android:name="layout.activity" />
+32-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:17-58
+32-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:25-55
+33
+34                <category android:name="android.intent.category.DEFAULT" />
+34-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:17-76
+34-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:27-73
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.chapter2.FrameLayoutActivity" >
+37-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:27:9-37:20
+37-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:27:19-54
+38            <intent-filter>
+38-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:21:13-25:29
+39                <action android:name="layout.activity" />
+39-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:17-58
+39-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:25-55
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:17-76
+41-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:27-73
+42            </intent-filter>
+43            <intent-filter>
+43-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:33:13-36:29
+44                <action android:name="android.intent.action.DIAL" />
+44-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:34:17-69
+44-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:34:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:17-76
+46-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.chapter2.RelativeLayoutActivity" >
+49-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:38:9-44:20
+49-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:38:19-57
+50            <intent-filter>
+50-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:21:13-25:29
+51                <action android:name="layout.activity" />
+51-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:17-58
+51-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:22:25-55
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:17-76
+53-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:24:27-73
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.example.chapter2.UIActivity" />
+56-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:45:9-48
+56-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:45:19-45
+57        <activity android:name="com.example.chapter2.RecyclerViewActivity" />
+57-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:46:9-58
+57-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:46:19-55
+58        <activity android:name="com.example.chapter2.GetResultActivity" />
+58-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:47:9-55
+58-->/Users/bytedance/Downloads/Chapter-2-master/Chapter2Demo/app/src/main/AndroidManifest.xml:47:19-52
+59    </application>
+60
+61</manifest>
