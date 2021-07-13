@@ -6,7 +6,7 @@
 
 
 ## 说明
-Chapter2Demo: 课程演示demo
+demo: 课程演示demo
 
 Android基础UI开发(浙大版）: 课程讲义
 
