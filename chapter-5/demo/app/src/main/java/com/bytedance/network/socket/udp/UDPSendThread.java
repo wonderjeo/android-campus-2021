@@ -36,11 +36,11 @@ public class UDPSendThread extends Thread {
     public void run() {
         Log.d("socket", "UDP客户端线程start ");
         try {
-            DatagramSocket datagramSocket = new DatagramSocket(30002); //服务器IP及端口
+            DatagramSocket datagramSocket = new DatagramSocket(30002); //注意，这本地端口
 
             // 读文件
             double n = 1;
-            byte[] data = new byte[1024 * 5];//每次读取的字节数
+            byte[] data = new byte[1024 * 5];
             int len = -1;
             while (!stopFlag) {
                 if (!message.isEmpty()) {
