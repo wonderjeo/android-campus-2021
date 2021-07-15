@@ -17,7 +17,7 @@ Homework: 作业工程
 
 作业地址: Homework/
 
-提交方式: 提交到你的 Repository 中 Homework-Chapter-5 目录。并将git仓库名字发送到 wenruri@bytedance.com，邮件标题：浙大+姓名+学号+第五讲 
+提交方式: 提交到你的 Repository 中 Homework-Chapter-5 目录。并将git仓库地址发送到 wenruri@bytedance.com，邮件标题：浙大+姓名+学号+第五讲 
 
 截止时间: 7月16日 24:00
 
